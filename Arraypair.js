@@ -3,10 +3,11 @@ function pairSum(a = [] , sum) {
    let i=0;
     let j=0;
     let temp=a[0];
-    for( i=0,j=(a.length-1);i<j;){
-    temp= a[i]+a[j];
-      if(temp==sum)
-      {
+    for( i=0,j=(a.length-1);i<j;)
+    {
+       temp= a[i]+a[j];
+       if(temp==sum)
+       {
          console.log(a[i]+" , "+ a[j]);
         }
         else if(temp<sum)
